@@ -87,18 +87,18 @@ main .container{
 	display: inline-block;
 }
 
-.custom-checkbox .custom-control-label::before{
+/*.custom-checkbox .custom-control-label::before{
 	width: 16px;
 	height: 16px;
 	box-shadow: none;
 	border: 1px solid #C2C9CC;
-}
+}*/
 
-.custom-control-input:checked~.custom-control-label::before{
+/*.custom-control-input:checked~.custom-control-label::before{
 	background-color: #49e363;
 	box-shadow: none;
 	border: 1px solid #C2C9CC;
-}
+}*/
 
 .input-title{
 	font-weight: 500;
@@ -114,6 +114,14 @@ main .container{
 
 .tag-imp{
 	background-color: #49e363;
+	font-size: 9px;
+	color: #fff;
+	padding: 6px 11px;
+	border-radius: 12px;
+}
+
+.tag-imp2{
+	background-color: #e36353;
 	font-size: 9px;
 	color: #fff;
 	padding: 6px 11px;

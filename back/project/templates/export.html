@@ -38,17 +38,13 @@
                             <div class="input-title d-flex align-items-center">
                                 {% if requirement.id in category.selected_ids %}
                                     <div class="tag-imp ml-auto">{% trans "Passed" %}</div>
+                                {% else %}
+                                    <div class="tag-imp2 ml-auto">{% trans "  Failed  " %}</div>
                                 {% endif %}
                             </div>
                         </label>
                         <label>
-                            {% if requirement.id in category.selected_ids %}
-                                <input type="checkbox" class="custom-control-input" name="{{ category.category.id }}checkbox_req_{{ requirement.id }}" id="{{ category.category.id }}checkbox_req_{{ requirement.id }}" style="background-color: rgba(0, 255, 0, 0.4);">
-                                {{ requirement.title }}
-                            {% else %}
-                                <input type="checkbox" class="custom-control-input" name="{{ category.category.id }}checkbox_req_{{ requirement.id }}" id="{{ category.category.id }}checkbox_req_{{ requirement.id }}">
-                                {{ requirement.title }}
-                            {% endif %}
+                            {{ requirement.title }}
                         </label>
                         <a href="{{ BASE_URL }}/{{ LANGUAGE_CODE }}/requirement/{{ requirement.id }}" class="input-link">
                             {% trans "(full description)" %}
