@@ -16,6 +16,8 @@ services:
       - ./front/dist/prod:/var/www/front
       - media_data:/var/www/media
       - static_data:/var/www/static
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/ssl:/etc/nginx/ssl
 
   back:
     build: ./back/.

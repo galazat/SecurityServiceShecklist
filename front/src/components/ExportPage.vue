@@ -61,7 +61,7 @@
           <div data-spy="scroll" data-target="#list" data-offset="0" class="sc">
             <div class="card" :id="'cat-' + index_cat" v-for="(cat, index_cat) in getCategories" v-if="getSelectedCategoriesIds.includes(cat.id)">
               <div class="col-12 col-md-8">
-                <div class="card-title">{{ cat.name }}</div>
+                <div class="card-title">{{ cat.id }}</div>
                 <p class="p-text">
                   <vue-simple-markdown :source="cat.summary"></vue-simple-markdown>
                 </p>
@@ -219,6 +219,8 @@ export default {
       for (const catId of Object.keys(this.selectedReq))
         selected_ids.push(catId)
       let link = '/?cat='.concat(selected_ids.join("&cat="))
+      console.log(window.location.origin.concat(link))
+      console.log(window.location.origin + link)
       this.url = window.location.origin.concat(link)
       navigator.clipboard.writeText(this.url)
       this.$bvToast.toast(`${toastBody}`, {
@@ -228,7 +230,7 @@ export default {
         appendToast: true
       })
     } 
-  },
+  }
 }
 </script>
 

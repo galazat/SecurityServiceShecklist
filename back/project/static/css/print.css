@@ -95,7 +95,7 @@ main .container{
 }
 
 .custom-control-input:checked~.custom-control-label::before{
-	background-color: #E34949;
+	background-color: #49e363;
 	box-shadow: none;
 	border: 1px solid #C2C9CC;
 }
@@ -108,12 +108,12 @@ main .container{
 .input-subtitle{
 	font-size: 12px;
 	line-height: 16px;
-	color: #586066;
+	color: #49a363;
 	font-family: "Roboto", sans-serif;
 }
 
 .tag-imp{
-	background-color: #E34949;
+	background-color: #49e363;
 	font-size: 9px;
 	color: #fff;
 	padding: 6px 11px;
@@ -133,8 +133,8 @@ main .container{
 		padding-left: 52px;
 	}*/
 
-.important-cont, .main-cont{
-	border: 1.5px solid rgba(227, 73, 73, 0.5);
+/*.important-cont, .main-cont{
+	border: 1.5px solid rgba(73, 151, 53, 0.3);
 	box-sizing: border-box;
 	border-radius: 8px;
 	padding: 6px 12px;
@@ -142,7 +142,7 @@ main .container{
 	padding-right: 10px;
 	margin-left: 6px;
 	margin-bottom: 3px;
-}
+}*/
 
 .main-cont .input-title{
 	margin-top: 2px;

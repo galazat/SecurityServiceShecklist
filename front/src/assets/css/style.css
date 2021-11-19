@@ -67,8 +67,8 @@ header .ml-3{
 	font-family: 'Circe-bold', sans-serif;
 	font-size: 12px;
 	letter-spacing: 0.08em;
-	color: #E34949;
-	border: 2px solid #E34949;
+	color: #49e363;
+	border: 2px solid #49e363;
 	border-radius: 12px;
 	text-transform: uppercase;
 	padding-right: 13px;
@@ -103,11 +103,11 @@ header .ml-3{
 }
 
 .main-title{
-	font-size: 72px;
+	font-size: 64px;
 	color: #172126;
 	font-family: 'Circe-bold', sans-serif;
 	margin-top: 49px;
-	line-height: 72px;
+	line-height: 64px;
 }
 
 .input-cont:not(:last-child){
@@ -157,7 +157,7 @@ header .ml-3{
 }
 
 input.default:checked + .slider {
-	background-color: #E34949;
+	background-color: #434949;
 }
 
 input:checked + .slider:before {
@@ -184,7 +184,7 @@ input:checked + .slider:before {
 	font-family: 'Circe-bold', sans-serif;
 	font-size: 16px;
 	letter-spacing: 0.08em;
-	background: #E34949;
+	background: #49e363;
 	box-shadow: 0px 18px 40px -15px rgba(237, 89, 82, 0.4);
 	border-radius: 12px;
 	color: #fff;
@@ -306,7 +306,7 @@ main{
 	width: 8px;
 	height: 8px;
 	border-radius: 100%;
-	background-color: #E34949;
+	background-color: #49e363;
 }
 
 .main-row{
@@ -345,12 +345,12 @@ main{
 }
 
 .alert-cont .message-title{
-	color: #E34949;
+	color: #49e363;
 }
 
 a.message-title{
 	text-decoration: none;
-	color: #E34949;
+	color: #49e363;
 }
 
 .link-img{
