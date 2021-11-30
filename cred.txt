@@ -1,0 +1,10 @@
+cred = "test"
+
+password = 134647555465465464534
+
+token="e83yfhu487y3hgeriw3hf438ghiuh5948hgtrih"
+
+mail = sad@kefm.ti
+
+// login = ewrwfrt4 
+// sdfsfefwev df fd df v df gfd g df     pass =effdg
