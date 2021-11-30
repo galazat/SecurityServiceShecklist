@@ -11,8 +11,6 @@
 *.orig
 *.egg-info
 
-data/
-
 back/tmp/
 back/.env
 back/media/
